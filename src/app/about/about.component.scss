@@ -1,0 +1,26 @@
+#about{
+  min-height: 100vh;
+  color: #eceff4 !important;
+  background-color: #4c566a;
+}
+
+img.rounded-circle.z-depth-1{
+  margin-top: 30%;
+  height: 250px !important;
+}
+
+h4{
+  margin-top: 20%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  h4 {
+    margin-top: 0;
+  }
+  img.rounded-circle.z-depth-1{
+    margin-top: 10%;
+    height: 250px !important;
+  }
+}

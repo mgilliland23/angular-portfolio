@@ -5,4 +5,40 @@ html, body{
 
 .col-*{
   margin-right: 0 !important;
+
 }
+
+.col-lg-4{
+  padding-right: 0 !important;
+}
+
+.row{
+  margin-right: 0 !important;
+
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: white;
+  color: black;
+}
+
+.top-nav-collapse .nav-link{
+  color: black !important;
+}
+
+.top-nav-collapse .navbar-brand{
+  color: #000 !important;
+}
+
+.top-nav-collapse .navbar-toggler-icon {
+  background-image: url('assets/hamburger_menu.svg') !important;
+
+}
+
+
+
+

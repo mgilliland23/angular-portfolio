@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { MDBBootstrapModulesPro } from 'ng-uikit-pro-standard';
 import { MDBSpinningPreloader } from 'ng-uikit-pro-standard';
 
+import { HttpClientModule } from '@angular/common/http';
+import { PdfJsViewerModule } from 'ng2-pdfjs-viewer';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,12 +23,16 @@ import { AboutComponent } from './about/about.component';
     HeaderComponent,
     PortfolioComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MDBBootstrapModulesPro.forRoot()
+    MDBBootstrapModulesPro.forRoot(),
+    PdfJsViewerModule,
+    HttpClientModule,
+    NgxPageScrollModule
+
   ],
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent]

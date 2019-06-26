@@ -11,6 +11,10 @@ i.fas, i.far{
   color: #3B4252 !important;
 }
 
+i.far.fa-file-pdf{
+  width: 24px;
+}
+
 a{
   text-decoration: none;
   color: #3B4252 !important;
@@ -23,10 +27,12 @@ a{
 button{
   background-color: transparent;
   border: none;
+  padding-left: 0 !important;
 }
 
 .card-body{
   padding: 1.25rem 4rem;
+  padding-top: 40px;
 }
 
 .btn-floating{

@@ -1,6 +1,6 @@
 <!-- Section: Contact v.3 -->
 <section id="contact" class="contact-section">
-  <div id="contact-container">
+  <div>
     <!-- Form with header -->
     <div class="card">
 
@@ -105,9 +105,16 @@
                 </a>
               </li>
               <li>
-                <a href="mailto:mgilliland23@gmail.com">
+                <a href="mailto:mgilliland23@gmail.com" target="_blank">
                   <p><i class="fas fa-envelope pr-2"></i>mgilliland23@gmail.com</p>
                 </a>
+              </li>
+              <li>
+                <button (click)="openPdf();">
+                  <p><i class="far fa-file-pdf pr-2"></i>Resume</p>
+                  <ng2-pdfjs-viewer #pdfViewer [externalWindow]="true" [downloadFileName]="'MattGillilandResume.pdf'"
+                    [openFile]="true" [viewBookmark]="false" [download]="false"></ng2-pdfjs-viewer>
+                </button>
               </li>
             </ul>
             <hr class="hr-light my-4">
@@ -123,15 +130,6 @@
                   <i class="fab fa-github"> </i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <button (click)="openPdf();" class="p-2 fa-lg ins-ic">
-                  <i class="far fa-file"></i>
-
-                  <ng2-pdfjs-viewer #pdfViewer [externalWindow]="true" [downloadFileName]="'resume.pdf'"
-                    [openFile]="true" [viewBookmark]="false" [download]="false"></ng2-pdfjs-viewer>
-                </button>
-              </li>
-
             </ul>
 
           </div>

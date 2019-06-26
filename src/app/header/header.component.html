@@ -1,20 +1,21 @@
 <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav"
   [containerInside]="true" [iconBackground]="['custom-hamburger-class']">
   <!-- Navbar brand -->
-  <mdb-navbar-brand><a class="navbar-brand" href="#">MG</a></mdb-navbar-brand>
+  <mdb-navbar-brand><a class="navbar-brand" pageScroll href="#intro-section">MG</a></mdb-navbar-brand>
 
   <links>
 
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a pageScroll href="#about" class="nav-link waves-light" mdbWavesEffect>About Me</a>
+        <a pageScroll href="#portfolio" routerLink="/#portfolio" class="nav-link waves-light"
+          mdbWavesEffect>Projects</a>
       </li>
       <li class="nav-item">
-        <a pageScroll href="#portfolio" class="nav-link waves-light" mdbWavesEffect>Projects</a>
+        <a pageScroll href="#about" routerLink="/#about" class="nav-link waves-light" mdbWavesEffect>About Me</a>
       </li>
       <li class="nav-item">
-        <a pageScroll href="#contact" class="nav-link waves-light" mdbWavesEffect>Contact</a>
+        <a pageScroll href="#contact" routerLink="/#contact" class="nav-link waves-light" mdbWavesEffect>Contact</a>
       </li>
     </ul>
     <!-- Links -->
@@ -31,7 +32,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="https://www.linkedin.com/in/matthew-gilliland-77695595/" target="_blank" class="nav-link">
+        <a href="mailto:mgilliland23@gmail.com" target="_blank" class="nav-link">
           <i class="far fa-envelope"> </i>
         </a>
       </li>

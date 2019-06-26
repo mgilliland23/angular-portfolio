@@ -1,7 +1,12 @@
 #about{
   min-height: 100vh;
-  color: #eceff4 !important;
-  background-color: #4c566a;
+  background-color: #E5E9F0 !important;
+  color: #3B4252 !important;
+}
+
+#about-container{
+  padding-top:40px;
+  padding-bottom: 40px;
 }
 
 img.rounded-circle.z-depth-1{
@@ -11,8 +16,10 @@ img.rounded-circle.z-depth-1{
 
 h4{
   margin-top: 20%;
+  line-height: 150%;
   padding-right: 3rem;
   padding-left: 3rem;
+  font-weight: 2rem;
 }
 
 @media only screen and (max-width: 768px) {

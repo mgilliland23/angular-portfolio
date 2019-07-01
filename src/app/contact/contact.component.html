@@ -111,7 +111,7 @@
               </li>
               <li>
                 <button (click)="openPdf();">
-                  <p><i class="far fa-file-pdf pr-2"></i>Resume</p>
+                  <a><i class="far fa-file-pdf pr-2"></i>Resume</a>
                   <ng2-pdfjs-viewer #pdfViewer [externalWindow]="true" [downloadFileName]="'MattGillilandResume.pdf'"
                     [openFile]="true" [viewBookmark]="false" [download]="false"></ng2-pdfjs-viewer>
                 </button>

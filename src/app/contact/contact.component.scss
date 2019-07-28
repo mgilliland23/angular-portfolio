@@ -43,3 +43,25 @@ i.far.fa-paper-plane{
   color: #eceff4 !important;
 }
 
+.md-form input[type=text]:focus:not([readonly]){
+  box-shadow: 0 1px 0 0 #3B4252;
+  border-bottom: 1px solid #3B4252;
+  color: #3B4252;
+}
+
+.md-form textarea.md-textarea:focus:not([readonly]){
+  box-shadow: 0 1px 0 0 #3B4252;
+  border-bottom: 1px solid #3B4252;
+  color: #3B4252;
+}
+
+.md-form textarea.md-textarea:focus:not([readonly]) +label{
+
+  color: #3B4252;
+}
+
+.md-form input[type=text]:focus:not([readonly])+ label{
+
+  color: #3B4252;
+}
+

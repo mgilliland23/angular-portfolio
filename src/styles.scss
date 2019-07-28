@@ -17,21 +17,27 @@ html, body{
 
 }
 
+.nav-link:active{
+  font-weight: bold;
+  color: #3B4252;
+}
+
 .navbar {
   background-color: transparent;
+  box-shadow: none !important;
 }
 
 .top-nav-collapse {
   background-color: white;
-  color: black;
+  color: #3B4252;
 }
 
 .top-nav-collapse .nav-link{
-  color: black !important;
+  color: #3B4252 !important;
 }
 
 .top-nav-collapse .navbar-brand{
-  color: #000 !important;
+  color: #3B4252 !important;
 }
 
 .top-nav-collapse .navbar-toggler-icon {

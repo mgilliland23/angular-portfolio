@@ -1,25 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
-html, body{
+html,
+body {
   max-width: 100vw;
 }
 
-.col-*{
+.col-* {
   margin-right: 0 !important;
-
 }
 
-.col-lg-4{
+.col-lg-4 {
   padding-right: 0 !important;
 }
 
-.row{
+.row {
   margin-right: 0 !important;
-
 }
 
-.nav-link:active{
+.nav-link:active {
   font-weight: bold;
-  color: #3B4252;
+  color: #3b4252;
 }
 
 .navbar {
@@ -29,22 +28,17 @@ html, body{
 
 .top-nav-collapse {
   background-color: white;
-  color: #3B4252;
+  color: #3b4252;
 }
 
-.top-nav-collapse .nav-link{
-  color: #3B4252 !important;
+.top-nav-collapse .nav-link {
+  color: #3b4252 !important;
 }
 
-.top-nav-collapse .navbar-brand{
-  color: #3B4252 !important;
+.top-nav-collapse .navbar-brand {
+  color: #3b4252 !important;
 }
 
 .top-nav-collapse .navbar-toggler-icon {
-  background-image: url('assets/hamburger_menu.svg') !important;
-
+  background-image: url("assets/hamburger_menu.svg") !important;
 }
-
-
-
-

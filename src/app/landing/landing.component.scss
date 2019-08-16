@@ -1,43 +1,52 @@
 html,
 body,
 header,
-#intro-section
- {
+#intro-section {
   height: 100vh !important;
 }
 
 @media (max-width: 740px) {
-html,
-body,
-header,
-.view {
-height: 100vh;
-}
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
 }
 
 .top-nav-collapse {
-background-color: #78909c !important;
+  background-color: #78909c !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-background: transparent !important;
+  background: transparent !important;
 }
 
 @media (max-width: 991px) {
-.navbar:not(.top-nav-collapse) {
-background: #78909c !important;
-}
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
 }
 
 h1 {
-letter-spacing: 8px;
+  letter-spacing: 8px;
 }
 
 h5 {
-letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 
 .hr-light {
-border-top: 3px solid #fff;
-width: 80px;
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+#arrow {
+  //position: absolute;
+  // bottom: 10px;
+  height: 30px;
+  stroke: white;
+  position: relative;
+  top: 200px;
+  stroke-width: 3px;
 }

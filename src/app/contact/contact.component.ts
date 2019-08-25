@@ -27,7 +27,7 @@ export class ContactComponent implements OnInit {
   }
 
   public openPdf() {
-    let url = "assets/MatthewGillilandResume.pdf";
+    const url = "assets/MatthewGillilandResume.pdf";
     // url can be local url or remote http request to an api/pdf file.
     // E.g: let url = "assets/pdf-sample.pdf";
     // E.g: https://github.com/intbot/ng2-pdfjs-viewer/tree/master/sampledoc/pdf-sample.pdf
